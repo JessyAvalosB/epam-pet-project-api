@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from 'express';
 import bodyParser from 'body-parser';
 
@@ -7,6 +8,10 @@ import userRoute from './routes/user';
 const app = express();
 
 /* Config */
+app.set('PORT', process.env.PORT || 4000);
+
+/* Middlewares */
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -14,6 +19,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', indexRoute);
 app.use('/user', userRoute);
 
-app.set('PORT', process.env.PORT || 4000);
 
 export default app
