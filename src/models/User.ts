@@ -1,5 +1,7 @@
 import { model } from 'mongoose';
-import { User } from '../interfaces/User';
+import { UserTypes } from '../interfaces/User';
 import UserSchema from '../schemas/User';
 
-export default model<User>('User', UserSchema)
+const User = model<UserTypes>('User', UserSchema);
+
+export default User;

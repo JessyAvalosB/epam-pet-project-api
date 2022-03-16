@@ -1,7 +1,8 @@
-export interface Pet {
-    name: string;
+export interface PetTypes {
+    petname: string;
     age: number;
     type: number;
-    breed: string;
+    breed: number;
+    favorite: boolean;
     user: string;
 }

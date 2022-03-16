@@ -1,5 +1,5 @@
 import {Pet} from './Pet';
-export interface User  {
+export interface UserTypes  {
     username: string;
     email: string;
     password: string;
