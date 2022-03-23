@@ -1,7 +1,9 @@
-import { model } from 'mongoose';
+import { PaginateModel, Document, model } from 'mongoose';
 import { PetTypes } from '../interfaces/Pet';
-import PetSchema from '../schemas/Pet';
+import  PetSchema  from '../schemas/Pet';
 
-const Pet = model<PetTypes>('Pets', PetSchema);
+interface PetModel extends Document, PetTypes{ }
+
+const Pet = model<PetTypes, PaginateModel<PetTypes>>('Pets', PetSchema);
 
 export default Pet;
