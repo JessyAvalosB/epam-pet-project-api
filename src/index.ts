@@ -11,7 +11,7 @@ import Pet from './models/Pet';
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: process.env.URL_CLIENT,
         methods: ["GET", "POST"]
     }
 });
