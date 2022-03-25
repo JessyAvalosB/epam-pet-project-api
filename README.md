@@ -40,7 +40,7 @@ localhost:8080/
 
 ## Documentation
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/17609465-5a111950-c790-4262-8ba4-cb93506ece8e?action=collection%2Ffork&collection-url=entityId%3D17609465-5a111950-c790-4262-8ba4-cb93506ece8e%26entityType%3Dcollection%26workspaceId%3Df92a12e9-65eb-45f2-a45c-c8641b1e9119#?env%5BPet%20Project%20API%20-%20live%5D=W3sia2V5IjoiZW5kcG9pbnQiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In1d)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/17609465/UVsTrNUT)
 
 ## Contributing
 
